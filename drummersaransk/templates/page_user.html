@@ -1,0 +1,13 @@
+{% extends "page_base.html" %}
+{% load tags_drummersaransk %}
+
+{% block title %}user{% endblock %}
+
+{% block content %}
+	<h1 class="h1">user</h1>
+	
+	{% if id %}
+		{{ id }}
+	{% endif %}
+	
+{% endblock %}

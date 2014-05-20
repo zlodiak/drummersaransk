@@ -1,0 +1,62 @@
+{% if is_authenticated %}
+	<div class="sidebar">
+		{% if flag_homepage %}
+			<section class="section links">
+				<h2 class="h2">Перейти:</h2>
+				
+				<ul>
+					<li>
+						<a class="link" href="/{{ user_pk }}">На мою страницу</a>
+					</li>
+				</ul>
+			</section>
+		{% endif %}
+		
+		<section class="section edit_menu">
+			<h2 class="h2">Редактировать:</h2>
+
+			<ul class="nav_edit">
+				<li>
+					<a href="/userprofile/personal_data_page/">Личные данные</a>
+				</li>
+				
+				<li>
+					<a href="/userprofile/drum_data_page/">Барабанные данные</a>
+				</li>
+				
+				<li>
+					<a href="/userprofile/avatar_page/">Аватар</a>
+				</li>
+				
+				<li>
+					<a href="/userprofile/password_page/">Пароль</a>
+				</li>
+
+				<li>
+					<a href="#">Сообщения</a>
+				</li>
+
+				<li>
+					<a href="#">Галерея</a>
+				</li>
+
+				<li>
+					<a href="/userprofile/path_glory_edit/">Тропа славы</a>
+				</li>
+				
+				<li>
+					<a href="/userprofile/friends_list_edit/">Список друзей</a>
+				</li>			
+			</ul>
+		</section>
+		
+		<section class="section search_menu">
+			<h2 class="h2">Поиск:</h2>
+			
+			<ul>
+				<li>
+					<a class="link" href="/userprofile/friends_search/">Поиск друзей</a>
+				</li>
+		</section>		
+	</div>
+{% endif %}

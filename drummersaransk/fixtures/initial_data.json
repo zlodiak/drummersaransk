@@ -1,0 +1,76 @@
+[
+	{
+		"model": "drummersaransk.Teacher",
+		"pk": 1,
+		"fields": {
+			"teacher": "Видеошколы и самоучители"
+		}
+	},
+	{
+		"model": "drummersaransk.Teacher",
+		"pk": 2,
+		"fields": {
+			"teacher": "Ф. И. О."
+		}
+	},
+	
+	
+	{
+		"model": "drummersaransk.Status",
+		"pk": 1,
+		"fields": {
+			"status": "Барабанный бог"
+		}
+	},
+	{
+		"model": "drummersaransk.Status",
+		"pk": 2,
+		"fields": {
+			"status": "Профессиональный барабанщик"
+		}
+	},	
+	{
+		"model": "drummersaransk.Status",
+		"pk": 3,
+		"fields": {
+			"status": "Барабанщик"
+		}
+	},	
+	{
+		"model": "drummersaransk.Status",
+		"pk": 4,
+		"fields": {
+			"status": "Барабанщик в прошлом"
+		}
+	},	
+	{
+		"model": "drummersaransk.Status",
+		"pk": 5,
+		"fields": {
+			"status": "Играю на другом инструменте, но барабанщик в душе"
+		}
+	},	
+	{
+		"model": "drummersaransk.Status",
+		"pk": 6,
+		"fields": {
+			"status": "Сочувствующий"
+		}
+	},		
+	
+
+	{
+		"model": "drummersaransk.Gender",
+		"pk": 1,
+		"fields": {
+			"gender": "Ж"
+		}
+	},
+	{
+		"model": "drummersaransk.Gender",
+		"pk": 2,
+		"fields": {
+			"gender": "М"
+		}
+	}	
+]
